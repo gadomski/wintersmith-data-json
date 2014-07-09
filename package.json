@@ -10,12 +10,7 @@
   ],
   "main": "lib/index.js",
   "dependencies": {
-  },
-  "devDependencies": {
     "coffee-script": ">1.5",
     "wintersmith": "2.x"
   },
-  "peerDependencies": {
-    "wintersmith": "2.x"
-  }
 }
