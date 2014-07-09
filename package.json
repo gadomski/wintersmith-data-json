@@ -12,5 +12,5 @@
   "dependencies": {
     "coffee-script": ">1.5",
     "wintersmith": "2.x"
-  },
+  }
 }
