@@ -18,7 +18,7 @@ module.exports = (env, callback) ->
         plugin = new JsonDataPlugin filepath, result
       callback error, plugin
 
-  env.registerContentPlugin 'json', 'data/**.json', JsonDataPlugin
+  env.registerContentPlugin 'json', '**/data/**.json', JsonDataPlugin
 
   # tell plugin manager we are done
   callback()
