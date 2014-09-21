@@ -1,14 +1,14 @@
 {
   "name": "wintersmith-data-json",
-  "version": "0.0.3",
-  "description": "A wintersmith plugin.",
-  "author": "Anonymous",
+  "version": "0.0.4",
+  "description": "Render JSON files in-place with a simple switch",
+  "author": "Pete Gadomski",
   "license": "MIT",
   "keywords": [
     "wintersmith",
     "wintersmith-plugin"
   ],
-  "main": "lib/index.js",
+  "main": "index.js",
   "dependencies": {
     "coffee-script": ">1.5",
     "wintersmith": "2.x"
